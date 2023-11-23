@@ -129,3 +129,18 @@ main {
   align-self: center;
   background-image: url(./logos/Bitcoin.svg);
 }
+
+.main-exchange-container h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--warm-black)
+}
+
+.main-exchange-container p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+  margin-top: 24px;
+}
