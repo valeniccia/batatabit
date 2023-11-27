@@ -144,3 +144,38 @@ main {
   color: #757575;
   margin-top: 24px;
 }
+
+.commission-table--container {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.table__top-left {
+  /* display: flex; */
+  padding: 10px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  background-color: #FFF;
+  font-family: inter;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #B5B0AC;
+}
+
+.table__top-right {
+  /* display: flex; */
+  padding: 10px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 8px 0px 0px;
+  background-color: #FFF;
+  font-family: inter;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
