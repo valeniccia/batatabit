@@ -175,6 +175,10 @@ main {
 	margin: 48px 75px 12px 12px;
 }
 
+#monedas-title {
+	color: var(--bitcoin-orange);
+}
+
 .comission-table--icon-left {
 	background-image: url(./iconos/mdi_keyboard_arrow_down.svg);
 	width: 20px;
@@ -182,7 +186,8 @@ main {
 	display: inline-block;
 	position: absolute;
 	top: 200px;
-	left: calc(100% - 2px)
+	left: calc(100% - 2px);
+	background-position: center;
 }
 
 .comission-table--icon-right {
@@ -192,8 +197,9 @@ main {
 	display: inline-block;
 	position: absolute;
 	top:200px;
-	left: calc(100% - 320px);
+	left: calc(100% - 255px);
 	transform: rotate(180deg);
+	background-position: center;
 } 
 
 .commission-table--container {
@@ -233,6 +239,26 @@ main {
 	color: #757575;
 }
 
+.table-right--icon-down {
+	height: 12px;
+	width: 12px;
+	background-image: url(./iconos/trending-down1.svg);
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 10px;
+}
+
+.table-right--icon-up {
+	height: 12px;
+	width: 12px;
+	background-image: url(./iconos/trending-up1.svg);
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 10px;
+}
+
 .table__bottom-left {
 	border-radius: 0px 0px 0px 8px;
 }
@@ -256,6 +282,10 @@ main {
 	font-size: 1.2rem;
 	font-weight: 500;
 	line-height: normal;
+}
+
+#monedas-date {
+	background-color: var(--soft-orange);
 }
 
 .main-product-detail {
