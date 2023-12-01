@@ -145,12 +145,24 @@ main {
 	margin-top: 24px;
 }
 
+.main-tables-container {
+	display: flex;
+	overflow-x: scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+}
+
+.main-tables-container::-webkit-scrollbar {
+	display: none;
+}
+
 .main-commission-table {
+	position: relative;
+	scroll-snap-align: center;
 	width: 70%;
 	min-width: 235px;
 	max-width: 500px;
-	height: 360px;
-	margin: 0 auto;
+	margin: 0 62px;
 	font-family: inter, sans-serif;
 }
 
@@ -163,10 +175,28 @@ main {
 	margin: 48px 75px 12px 12px;
 }
 
+.comission-table--icon-left {
+	background-image: url(./iconos/mdi_keyboard_arrow_down.svg);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+	left: calc(100% - 2px)
+}
+
+.comission-table--icon-right {
+	background-image: url(./iconos/mdi_keyboard_arrow_down.svg);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top:200px;
+	left: calc(100% - 320px);
+	transform: rotate(180deg);
+} 
+
 .commission-table--container {
-	display: inline-flex;
-	align-items: center;
-	gap: 1px;
 	width: 90%;
 	min-width: 230px;
 	max-width: 300px;
