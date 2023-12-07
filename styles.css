@@ -147,9 +147,11 @@ main {
 
 .main-tables-container {
 	display: flex;
-	overflow-x: scroll;
+	flex-direction: column;
+	justify-content: space-between;
+	/* overflow-x: scroll;
 	overscroll-behavior-x: contain;
-	scroll-snap-type: x proximity;
+	scroll-snap-type: x proximity; */
 }
 
 .main-tables-container::-webkit-scrollbar {
@@ -179,7 +181,7 @@ main {
 	color: var(--bitcoin-orange);
 }
 
-.comission-table--icon-left {
+/* .comission-table--icon-left {
 	background-image: url(./iconos/mdi_keyboard_arrow_down.svg);
 	width: 20px;
 	height: 20px;
@@ -188,9 +190,10 @@ main {
 	top: 200px;
 	left: calc(100% - 2px);
 	background-position: center;
-}
 
-.comission-table--icon-right {
+} */
+
+/* .comission-table--icon-right {
 	background-image: url(./iconos/mdi_keyboard_arrow_down.svg);
 	width: 20px;
 	height: 20px;
@@ -200,7 +203,7 @@ main {
 	left: calc(100% - 255px);
 	transform: rotate(180deg);
 	background-position: center;
-} 
+}  */
 
 .commission-table--container {
 	width: 90%;

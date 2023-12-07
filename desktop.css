@@ -1,0 +1,18 @@
+.bitcoin-img-container {
+	background-image: url(./img/bitcoinbabyx3.jpg);
+	height: 70vh;
+}
+
+.main-exchange-container {
+	height: 708px;
+}
+
+.backgroundImg {
+	background-image: url(./img/bitcoin\ vwctor-02.svg);
+	background-repeat: no-repeat;
+	background-size: 90vw;
+	position: absolute;
+	opacity: 0.5;
+	width: 90vw;
+	height: 670px;
+}
