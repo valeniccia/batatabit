@@ -148,24 +148,21 @@ main {
 .main-tables-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
+	align-content: center;
 	/* overflow-x: scroll;
 	overscroll-behavior-x: contain;
 	scroll-snap-type: x proximity; */
 }
 
-.main-tables-container::-webkit-scrollbar {
-	display: none;
-}
-
 .main-commission-table {
 	position: relative;
-	scroll-snap-align: center;
 	width: 70%;
 	min-width: 235px;
 	max-width: 500px;
 	margin: 0 62px;
 	font-family: inter, sans-serif;
+	align-self: center;
 }
 
 .main-commission-table .commission-table--title {
@@ -224,7 +221,7 @@ main {
 	font-weight: 500;
 	line-height: 1.9rem;
 	background-color: #fff;
-	color: #b5b0ac;
+	color: #757575;
 }
 
 .table__top-left {

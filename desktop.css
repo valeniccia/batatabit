@@ -1,3 +1,11 @@
+.header--title-container p {
+	font-size: 1.6rem;
+}
+
+.main-exchange-container--title p {
+	font-size: 1.6rem;
+}
+
 .bitcoin-img-container {
 	background-image: url(./img/bitcoinbabyx3.jpg);
 	height: 70vh;
@@ -5,6 +13,14 @@
 
 .main-exchange-container {
 	height: 708px;
+}
+
+.product-detail--title p {
+	font-size: 1.6rem;
+}
+
+.product--card-body {
+	font-size: 1.6rem;
 }
 
 .backgroundImg {
@@ -15,4 +31,8 @@
 	opacity: 0.5;
 	width: 90vw;
 	height: 670px;
+}
+
+.plans--title p {
+	font-size: 1.6rem;
 }
